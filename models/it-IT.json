@@ -1,7 +1,7 @@
 {
 	"interactionModel": {
 		"languageModel": {
-			"invocationName": "ciao mondo",
+			"invocationName": "monitoraggio rete",
 			"intents": [
 				{
 					"name": "AMAZON.CancelIntent",
@@ -16,9 +16,15 @@
 					"samples": []
 				},
 				{
-					"name": "HelloWorldIntent",
+					"name": "RetrieveDevicesIntent",
 					"slots": [],
-					"samples": [ "ciao", "come stai", "dì ciao", "salutami", "salutarmi" ]
+					"samples": [
+						"trova i dispositivi connessi alla mia rete",
+						"dimmi i dispositivi connessi alla mia rete",
+						"quali sono i dispositivi connessi alla mia rete",
+						"dammi i dispositivi connessi",
+						"dammi i dispositivi connessi alla mia rete"
+					  ]
 				},
 				{
 					"name": "AMAZON.NavigateHomeIntent",

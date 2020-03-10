@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "hello world",
+            "invocationName": "network monitoring",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -16,17 +16,13 @@
                     "samples": []
                 },
                 {
-                    "name": "HelloWorldIntent",
-                    "slots": [],
-                    "samples": [
-                        "hello",
-                        "how are you",
-                        "say hi world",
-                        "say hi",
-                        "hi",
-                        "say hello world",
-                        "say hello"
-                    ]
+                    "name": "RetrieveDevicesIntent",
+					"slots": [],
+					"samples": [
+						"find connected devices on my network",
+						"tell me connected devices on my network",
+						"give me connected devices on my network"
+					]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
